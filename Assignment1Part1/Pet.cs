@@ -7,7 +7,7 @@ class Pet
 	private int age;
 	private bool isFemale;
 
-	//method to enter pet-information by user, needs to be public to be able to reach it in the main-method 
+	//method to enter pet-information by user
 	private void PetInput()
 	{
 		Console.Write("What is the name of your pet? ");
@@ -28,6 +28,7 @@ class Pet
 		Console.WriteLine($"Name: {name} Age:{age}");
 		Console.WriteLine($"{name} is a good {(isFemale ? "girl" : "boy")}");
 	}
+	//this method needs to be public to be reachable from the main-method in program.cs
 	public void Start()
 	{
 		PetInput();
