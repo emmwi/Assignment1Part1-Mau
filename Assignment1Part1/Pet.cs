@@ -1,6 +1,6 @@
 using System;
 
-class Pet
+public class Pet
 {
 	//variables for pets name, age and if its a female or not 
 	private string name;

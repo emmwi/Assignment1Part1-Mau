@@ -8,11 +8,18 @@
             myPet.Start();
 
             Console.Write("press Enter to start next part!");
-            //reads that user pressed a key to continue
+            //reads that user pressed enter to continue
             Console.ReadLine();
 
-            Album album =new Album();
+            Album album = new Album();
             album.Start();
+
+            Console.Write("press Enter to start next part!");
+            //reads that user pressed enter to continue
+            Console.ReadLine(); 
+
+            TicketSeller ticketSeller = new TicketSeller();
+            ticketSeller.Start();
         }
     }
 }
